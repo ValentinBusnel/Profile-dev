@@ -1,0 +1,115 @@
+body {
+  background-color: #E7ECEF;
+}
+
+h1 {
+  font-size: 32px;
+  color: #00977e;
+}
+
+h2 {
+  font-size: 24px;
+  color: #00977e;
+}
+
+p {
+  color: #E7ECEF;
+}
+
+i {
+  color:#E7ECEF;
+  transition: 0.5s;
+}
+
+i:hover {
+  transform: translateY(-8px);
+  color: #00977e;
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: none;
+
+  transition: 0.5s;
+}
+
+a:hover {
+
+  transition: 0.5s;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  font-size: 42px;
+  letter-spacing: 8px;
+}
+
+
+.container {
+  box-shadow: rgb(230, 230, 230) 0px 2px 20px -10px;
+  width: 50%;
+  height: auto;
+  margin: 32px auto;
+  padding: 16px;
+  text-align: center;
+  transition: 0.5s;
+  background-color: #272932;
+  border-radius: 16px;
+}
+
+.container:hover {
+  box-shadow: #00977e 0px 20px 30px -10px;
+  transform: translateY(-8px);
+  transition: 0.5s;
+
+}
+
+.img_user {
+  border-radius: 50%;
+}
+
+.container-info p {
+  font-size: 16px;
+}
+
+
+.button {
+  padding:24px 48px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #00977e;
+  transition: 0.5s;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background-color: #E7ECEF;
+  transition: 0.5s;
+}
+
+.button a {
+  color:#E7ECEF;
+}
+
+.button:hover a{
+  color: #00977e;
+}
+
+
+
+@media (max-width: 900px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 90%;
+  }
+
+  .button {
+    padding:24px 24px;
+  }
+}
