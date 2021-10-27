@@ -1,7 +1,7 @@
 /* FONTS */
 @font-face {
  font-family: "KronaOne";
- src: url("/fonts/KronaOne-Regular.woff") format("woff");
+ src: url("fonts/KronaOne-Regular.woff") format("woff");
 }
 
 body {
@@ -55,8 +55,8 @@ body {
 }
 
 .svg-anim {
-  background: rgb(17, 17, 17);;
-
+  background: rgb(17, 17, 17);
+  overflow-x: hidden;
   height:100px;
   background-image: url("images/wave.svg");
 
