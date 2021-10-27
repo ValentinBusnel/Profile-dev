@@ -45,6 +45,12 @@ body {
   height: 300px;
 }
 
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .left {
   display: flex;
   justify-content: center;
@@ -193,9 +199,8 @@ body {
 }
 
 
-@media (max-width: 640px) {
-  .card-product {
-    grid-template-areas: "a" "d" "b" "c" "e";
-    grid-template-columns: 1fr;
+@media (max-width: 550px) {
+  .section-1 h1 {
+    font-size: 26px;
   }
 }
